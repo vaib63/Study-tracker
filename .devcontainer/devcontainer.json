@@ -1,0 +1,9 @@
+{
+  "name": "Flutter",
+  "image": "cirrusci/flutter:stable",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "forwardPorts": [8080],
+  "postCreateCommand": "flutter doctor"
+}
